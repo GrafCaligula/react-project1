@@ -1,5 +1,12 @@
 export default function Footer() {
   return (
-    <h1>Footer Section</h1>
+    <div className="footer-section">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
   )
 }

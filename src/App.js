@@ -4,14 +4,12 @@ import Interests from "./components/Interests";
 import Footer from "./components/Footer";
 
 export default function App() {
-  return (
-    <div>
+  return (    
       <main>
         <Info />
         <About />
         <Interests />
-      </main>
         <Footer />
-    </div>
+      </main>
   );
 }

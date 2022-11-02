@@ -1,13 +1,16 @@
-import React from "react";
-import portrait from "./logo192.png";
+import logo from "./portrait.png";
 
-export default function Info(){
+export default function Info() {
   return (
     <div className="info-section">
-      <img scr={portrait} alt="Portrait of me" />
-      <h1>Name</h1>
-      <p>Job Title</p>
-      <p><small>websiteLink</small></p>
+      <img className="info-img" src={logo} alt="Logo" />;
+      <h1 className="info-name">Marko Klöder</h1>
+      <p className="info-job">Umschüler Anwendungsentwicklung</p>
+      <p className="info-link"><small>websiteLink</small></p>
+      <div className="info-btn-wrapper">
+        <button className="info-btn1">Email</button>
+        <button className="info-btn2">Linkedin</button>
+      </div>
     </div>
-  )
+  );
 }
