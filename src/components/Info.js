@@ -1,6 +1,7 @@
-import logo from "./portrait.png";
-import mail from "./Mail.png";
-import linkedin from "./linkedin.png";
+import logo from "./images/portrait.png";
+import mail from "./images/Mail.png";
+import linkedin from "./images/linkedin.png";
+import "./css/Info.css"
 
 export default function Info() {
   return (

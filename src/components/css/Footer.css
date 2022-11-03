@@ -1,0 +1,20 @@
+.footer-section {  
+  width: 317px;
+  height: 64px;  
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer-section > ul {
+  margin: 0 73px;
+  padding: 20px 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+.footer-section > ul > li {
+  width: 25px;
+  height: 25px;
+}

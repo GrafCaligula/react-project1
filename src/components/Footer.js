@@ -1,7 +1,8 @@
-import twitter from "./Twitter Icon.png";
-import facebook from "./Facebook Icon.png";
-import insta from "./Instagram Icon.png";
-import github from "./GitHub Icon.png";
+import twitter from "./images/Twitter Icon.png";
+import facebook from "./images/Facebook Icon.png";
+import insta from "./images/Instagram Icon.png";
+import github from "./images/GitHub Icon.png";
+import "./css/Footer.css";
 
 export default function Footer() {
   return (
